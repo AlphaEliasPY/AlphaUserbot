@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/PrajjuS/ProjectFizilion",
-  "website": "https://t.me/PrajjuS",
-  "success_url": "https://t.me/ProjectFizilion",
+  "repository": "https://github.com/AlphaEliasPY/AlphaUserbot",
+  "website": "https://t.me/AlphaElias",
+  "success_url": "https://t.me/AlphaElias",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -166,7 +166,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "[PM = Report Spam] I ❤ ️Fizilion",
+      "value": "[PM = Report Spam] I ❤ ️AlphaElias",
       "required": false
     },
     "ALIVE_NAME": {

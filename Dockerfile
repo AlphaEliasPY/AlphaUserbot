@@ -1,14 +1,14 @@
 # inherit prebuilt image
-FROM prajwals3/projectfizilion:latest
+FROM AlphaElias/projectAlphaUserBot:latest
 
 # env setup
-RUN mkdir /Fizilion && chmod 777 /Fizilion
-ENV PATH="/Fizilion/bin:$PATH"
-WORKDIR /Fizilion
+RUN mkdir /AlphaUserBot && chmod 777 /AlphaElias
+ENV PATH="/AlphaUserBot/bin:$PATH"
+WORKDIR /AlphaUserBot
 
 # clone repo
-RUN git clone https://github.com/PrajjuS/ProjectFizilion -b demon /Fizilion
-#RUN git clone https://github.com/Senpai-sama-afk/ProjectFizilion -b dragon /Fizilion
+RUN git clone https://github.com/AlphaEliasPY/AlphaUserbot -b Alpha /AlphaUaerBot
+#RUN git clone https://github.com/AlphaEliasPY/AlphaUserbot -b Alpha /AlphaUserBot
 
 # Copies session and config(if it exists)
 COPY ./sample_config.env ./userbot.session* ./config.env* /Fizilion/
